@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vehicleceaser">
+
+    <permission
+        android:name="com.vehicleceaser.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.vehicleceaser.permission.MAPS_RECEIVE" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.CAMERA" />-->
+    <!--<uses-permission android:name="android.permission.BLUETOOTH" />-->
+    <!--<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />-->
+    <!--<uses-permission-->
+    <!--android:name="android.permission.BLUETOOTH_PRIVILEGED"-->
+    <!--tools:ignore="ProtectedPermissions" />-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACTION_EXTERNAL_APPLICATIONS_AVAILABLE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+    <application
+        android:name="com.smart.framework.SmartApplication"
+        android:allowTaskReparenting="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+
+        <service android:name=".VehicleService" />
+
+        <activity
+            android:name=".VCSplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VCLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCSearchVehicleActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCVehicleDetailActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCSearchHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCLocateExecutivesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VCUserProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/debug_maps_api_key" />
+
+
+    </application>
+
+</manifest>

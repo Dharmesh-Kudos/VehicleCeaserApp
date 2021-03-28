@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="service_not_available">No geocoder available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="no_address_found">no address found</string>
+    <string name="address_found">address found</string>
+    <string name="no_location_data_provided">no location data provided</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="generic_server_down">Server may be down please try again later.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="generic_error">Error while receiving response</string>
+
+    <!-- Server Error Code -->
+    <string name="app_name">ShrutiCollection</string>
+    <string name="debug_maps_api_key">AIzaSyDZ6J2hDWYNdCEbfiHX-r10vF1yzRQR2TM</string>
+    <string name="release_maps_api_key">AIzaSyDlmkuHk56eeKmOWAOBzJxksfEMzLEWd7I</string>
+
+
+    <!-- General String -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+
+
+    <!-- Custom Dialog String -->
+    <string name="dialog_loading_please_wait">Please wait</string>
+    <string name="dialog_title_report">Report this</string>
+    <string name="report_message_hint">Report message</string>
+
+
+    <!-- Registration -->
+    <string name="select">Select Location</string>
+    <string name="fetching_details">Fetching Stores...</string>
+    <string name="no_shops_nearby">No Shops Nearby.</string>
+    <string name="no_internet">No Internet Connection.</string>
+    <string name="stores">Stores</string>
+    <string name="hotspots">Hotspots</string>
+    <string name="klabs">K-Labs</string>
+    <string name="events">Events</string>
+    <string name="getting_stores">Getting Stores...</string>
+
+    <string name="chasis_no">Ch.No. - %1$s</string>
+    <string name="reg_no">Reg.No. - %1$s</string>
+    <string name="eng_no">Eng.No. - %1$s</string>
+    <string name="bank_name">Bank Name - %1$s</string>
+    <string name="veh_name">Veh.Name - %1$s</string>
+    <string name="cust_name">Cust.Name - %1$s</string>
+    <string name="net_mat_dat">Net Mat. Date - %1$s</string>
+    <string name="residence">Residence - %1$s</string>
+    <string name="agr_date">Agr. Date - %1$s</string>
+    <string name="agency">Agency - %1$s</string>
+    <string name="bki">BKI - %1$s</string>
+    <string name="co_name">Co.Name - %1$s</string>
+    <string name="dpd">DPD - %1$s</string>
+    <string name="emi">EMI - %1$s</string>
+    <string name="first_date">First Date - %1$s</string>
+    <string name="overdue">Overdue - %1$s</string>
+    <string name="proposalno">Prop.No. - %1$s</string>
+    <string name="pos">POS - %1$s</string>
+    <string name="pi">PI - %1$s</string>
+    <string name="supplierdesc">Supp.Desc. - %1$s</string>
+    <string name="status">Status - %1$s</string>
+
+    <string name="chasis_no1">*Ch.No. -* %1$s</string>
+    <string name="reg_no1">*Reg.No. -* %1$s</string>
+    <string name="eng_no1">*Eng.No. -* %1$s</string>
+    <string name="veh_name1">*Veh.Name -* %1$s</string>
+    <string name="cust_name1">*Cust.Name -* %1$s</string>
+    <string name="net_mat_dat1">*Net Mat. Date -* %1$s</string>
+    <string name="residence1">*Residence -* %1$s</string>
+    <string name="agr_date1">*Agr. Date -* %1$s</string>
+    <string name="agency1">*Agency -* %1$s</string>
+    <string name="bki1">*BKI -* %1$s</string>
+    <string name="co_name1">*Co.Name -* %1$s</string>
+    <string name="dpd1">*DPD -* %1$s</string>
+    <string name="emi1">*EMI -* %1$s</string>
+    <string name="first_date1">*First Date -* %1$s</string>
+    <string name="overdue1">*Overdue -* %1$s</string>
+    <string name="proposalno1">*Prop.No. -* %1$s</string>
+    <string name="pos1">*POS -* %1$s</string>
+    <string name="pi1">*PI -* %1$s</string>
+    <string name="supplierdesc1">*Supp.Desc. -* %1$s</string>
+    <string name="status1">*Status -* %1$s</string>
+
+
+    <string-array name="search_terms">
+        <item>Choose Search Term</item>
+        <item>Chassis Number</item>
+        <item>Engine Number</item>
+        <item>Registration Number</item>
+    </string-array>
+
+    <string-array name="demo_exec_list">
+        <item>Choose Executive</item>
+        <item>Shikhar Dhawan</item>
+        <item>KL Rahul</item>
+        <item>Cheteshwar Pujara</item>
+        <item>Virat Kohli</item>
+        <item>Ajinkya Rahane</item>
+        <item>Rishabh Pant</item>
+        <item>Hardik Pandya</item>
+        <item>R Ashwin</item>
+        <item>Kuldeep Yadav</item>
+        <item>Jasprit Bumrah</item>
+        <item>Ishant Sharma</item>
+    </string-array>
+    <string-array name="demo_exec_locations">
+        <item>Choose Executive Name From Dropdown</item>
+        <item>Rakhiyal, Ahmedabad</item>
+        <item>Soni ni chal, Ahmedabad</item>
+        <item>C.G. Road, Ahmedabad</item>
+        <item>Swastik char rasta, Stadium cross roads, Ahmedabad</item>
+        <item>Delhi Darwaza, Ahmedabad</item>
+        <item>Income Tax Circle, Ahmedabad</item>
+        <item>Pakwaan char rasta, Bodakdev</item>
+        <item>Rakhiyal, Ahmedabad</item>
+        <item>Soni ni chal, Ahmedabad</item>
+        <item>C.G. Road, Ahmedabad</item>
+        <item>Swastik char rasta, Stadium cross roads, Ahmedabad</item>
+    </string-array>
+</resources>

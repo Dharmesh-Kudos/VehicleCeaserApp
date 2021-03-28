@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./vehicleceaser/libs/AndroidQuery.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vehicleceaser/libs/AndroidQuery.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

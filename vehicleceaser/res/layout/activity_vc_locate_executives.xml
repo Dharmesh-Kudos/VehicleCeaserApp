@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            android:theme="@style/toolbarTheme"
+            app:contentInsetStartWithNavigation="0dp"
+            app:navigationIcon="@drawable/icon_vc_back_arrow"
+            app:title="Locate Executives" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/spinner_bg_design"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spnExecList"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:backgroundTint="@color/grey_light"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <com.vehicleceaser.KudosTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="Current Location : "
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/map_bg_design"
+            android:padding="@dimen/_5sdp">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

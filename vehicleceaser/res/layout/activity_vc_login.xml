@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vc_splash"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/ham_icon"
+            android:tint="@color/accent" />
+
+        <com.vehicleceaser.KudosTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="SHRUTI\nCEASERS\nAGENCY"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/edt_top_round_bg_design"
+        android:gravity="center"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@drawable/edt_all_plain_bg_design"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@drawable/btn_bottom_round_bg_design"
+        android:onClick="submitLogin"
+        android:padding="@dimen/_10sdp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/btn_bg_design"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="Forgot Password ?"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnGoToSignup"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/_20sdp"-->
+    <!--android:layout_marginRight="@dimen/_5sdp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/btn_bg_design"-->
+    <!--android:onClick="goToSignup"-->
+    <!--android:padding="@dimen/_10sdp"-->
+    <!--android:text="Signup"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/_15sdp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnHelp"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/_5sdp"-->
+    <!--android:layout_marginRight="@dimen/_20sdp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/btn_bg_design"-->
+    <!--android:onClick="goToEnquiryForm"-->
+    <!--android:padding="@dimen/_10sdp"-->
+    <!--android:text="Help Me"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/_15sdp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/_150sdp"-->
+    <!--android:layout_height="@dimen/_40sdp"-->
+    <!--android:layout_marginTop="@dimen/_50sdp"-->
+    <!--android:src="@drawable/dae3" />-->
+
+
+</LinearLayout>

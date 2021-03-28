@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_full_round_white_bg_design"
+            android:gravity="center">
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvChNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="fsdfdsf"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgShare"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:src="@drawable/ic_share"
+                android:tint="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/lnrMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/accent"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Status : LIVE"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvVehName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Veh. Name : CLASSIC-350CC"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvEngNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Eng. No.: U3S5C1JB691117"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvRegNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Reg. No.: GJ38C7871"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvPropNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Prop. No. : 3707602"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvCustName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Cus. Name : RAVAL  BALDEVBHAI"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvSuppDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Supp. Desc : SARABHAI PROWHEELS"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvNetMatDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Net Mat. Date: 2011-05-22"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvFirstDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="First Date: 2011-05-22"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvAgrDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Agr. Date: 2011-05-22"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvEmi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="EMI : Rs. 3650"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvBKI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="BKI : 4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvOverdue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Overdue : 14600"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvPI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="PI : 2786"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvDPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="DPD : 120"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvPOS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/_5sdp"
+                    android:text="POS : 99000"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvCoName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Co.Name. : DIVYESH"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="|"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <com.vehicleceaser.KudosTextView
+                    android:id="@+id/tvAgency"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Agency : JP"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <com.vehicleceaser.KudosTextView
+                android:id="@+id/tvResidence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Residence : 5 BHAVANINAGAR  BEHIND.MUNI ASHRAM  SANAND SANAND AHMEDABAD Sanand LANDMARK : BEHIND.MUNI ASHRAM"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
